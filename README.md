@@ -1,66 +1,101 @@
 # Python_Praco
 
-Small Python practice repo with two tiny scripts that show basic function definitions, control flow, and a simple command-line interface.
+A collection of Python practice scripts demonstrating fundamental programming concepts including functions, control flow, recursion, and data structures.
 
-## What’s Inside
+## Scripts Overview
 
-- `return.py` prints a New Year countdown and demonstrates an early `return`.
-- `definition.py` adds three numbers and prints the result from the command line.
+| Script | Purpose |
+|--------|---------|
+| `return.py` | Countdown function demonstrating early `return` |
+| `definition.py` | Adds three numbers from command-line arguments |
+| `dictionary.py` | Demonstrates dictionary creation and access |
+| `factorials.py` | Recursive factorial calculation (example: 6! = 720) |
+| `primeno.py` | Prime number checker and iterator |
+| `leapyear.py` | Leap year validator and days-in-month calculator |
+| `triangle.py` | Triangle validation using three side lengths |
+| `listupdater.py` | Squares all elements in a list |
+| `function1.py` | Alternative leap year and days-in-month implementation |
 
 ## Quick Start
 
-Run either script directly with Python:
+Run any script directly with Python:
 
 ```powershell
 python return.py
 python definition.py
+python dictionary.py
+python factorials.py
+python primeno.py
+python leapyear.py
+python triangle.py
+python listupdater.py
 ```
 
 ## Examples
 
-### Countdown
-
+### Countdown (return.py)
 ```powershell
 python return.py
 ```
-
 Output:
-
-```text
+```
 Three...
 Two...
 One...
 Happy New Year!
 ```
 
-### Add Three Numbers
-
+### Add Three Numbers (definition.py)
 ```powershell
 python definition.py 1 2 3
 ```
-
 Output:
-
-```text
+```
 1.0 + 2.0 + 3.0 = 6.0
 ```
 
-If you skip arguments, `definition.py` uses default values:
-
+### Dictionary Operations (dictionary.py)
 ```powershell
-python definition.py
+python dictionary.py
 ```
 
-## Why This Repo Exists
+### Factorial Calculation (factorials.py)
+```powershell
+python factorials.py
+```
+Output: `720` (factorial of 6)
 
-This repo is a lightweight sandbox for Python basics:
+### Prime Numbers (primeno.py)
+```powershell
+python primeno.py
+```
+Output: `2 3 5 7 11 13 17 19`
 
-- defining functions
-- using `if __name__ == "__main__"`
-- reading command-line arguments
-- returning early from a function
+### Triangle Validation (triangle.py)
+```powershell
+python triangle.py
+```
+Prompts for three side lengths and validates if they form a valid triangle.
+
+### List Operations (listupdater.py)
+```powershell
+python listupdater.py
+```
+Output: `[1, 4, 9, 16, 25]` (squares of 1-5)
+
+## Learning Topics Covered
+
+- Function definitions and calls
+- Control flow (`if`, `for`, `while`)
+- Recursion (factorial)
+- Dictionaries and data structures
+- List operations and comprehensions
+- Command-line arguments
+- Input/output
+- Conditional logic and validation
 
 ## Notes
 
-- No external dependencies are required.
-- Works with standard Python 3.
+- No external dependencies required
+- Compatible with Python 3.x
+- Each script is self-contained and can run independently
