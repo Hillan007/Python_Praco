@@ -5,3 +5,5 @@ empty_dictionary = {}
 # Print the values here.
 print(dictionary)
 print(phone_numbers)
+print(empty_dictionary)
+print(phone_numbers["Suzy"])
