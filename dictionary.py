@@ -4,3 +4,4 @@ empty_dictionary = {}
 
 # Print the values here.
 print(dictionary)
+print(phone_numbers)
