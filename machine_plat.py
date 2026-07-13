@@ -1,3 +1,4 @@
-from platform import processor
+from platform import system
 
-print(processor())
+print(system())
+
