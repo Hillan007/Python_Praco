@@ -1,4 +1,4 @@
-from platform import system
+from platform import version
 
-print(system())
+print(version())
 
