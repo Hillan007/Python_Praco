@@ -13,6 +13,6 @@ while running:
     screen.fill("black")
     pygame.draw.circle(screen, "red", (400, 300), 50)
     pygame.display.flip()
-    clock.tick(10)
+    clock.tick(3)
 
 pygame.quit()
